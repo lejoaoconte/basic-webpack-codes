@@ -1,0 +1,20 @@
+{
+  "name": "modes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.dev.js",
+    "dev": "webpack serve --config webpack.dev.js",
+    "prod": "webpack --config webpack.production.js"
+  },
+  "dependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
